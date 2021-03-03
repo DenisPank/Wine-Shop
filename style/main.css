@@ -96,17 +96,12 @@ header {
 }
 
 .header__menu {
+  margin-top: 20px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 11px 0 15px;
   border-bottom: 1px solid white;
   border-top: 1px solid white;
-  width: 100%;
-  text-align: center;
-  padding: 11px 0 11px;
   position: relative;
-  margin-top: 20px;
-}
-
-.header__item {
-  width: 291px;
 }
 
 .header__item::after {
@@ -116,7 +111,7 @@ header {
   width: 1px;
   background: white;
   height: 100%;
-  top: 0;
+  top: 1%;
 }
 
 .header__item:nth-child(1)::after {
