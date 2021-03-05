@@ -56,7 +56,7 @@ li {
   font-weight: 700;
   line-height: 1.5em;
   text-align: center;
-  font-size: 36px;
+  font-size: 35px;
 }
 
 .subtitle {
@@ -129,3 +129,36 @@ header {
 }
 
 /* header  */
+
+/*************************************** info  */
+.info {
+  background: rgba(40, 40, 40, 1);
+  padding: 100px 0 100px;
+}
+
+.info__content {
+  border: 3px solid #c4c4c4;
+  margin: 0 auto;
+  padding: 60px 186px;
+  text-align: center;
+}
+
+.info__text {
+  margin: 80px 0 50px;
+}
+
+.info__title {
+  position: relative;
+}
+
+.info__title::after {
+  position: absolute;
+  content: "";
+  width: 160px;
+  height: 1px;
+  background: white;
+  bottom: -40px;
+  left: 50%;
+  margin-left: -80px;
+}
+/* info  */
