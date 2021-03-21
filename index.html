@@ -7,6 +7,10 @@
     <title>Винный Магазин</title>
     <link rel="stylesheet" href="style/main.css" />
     <link rel="stylesheet" href="style/media.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Playfair+Display:wght@700&display=swap"
@@ -104,6 +108,46 @@
           <img src="img/bottlesfirst.jpg" alt="#" class="collections__img" />
           <img src="img/bottlesSecond.jpg" alt="#" class="collections__img" />
         </div>
+        <!-- Slider main container -->
+        <div class="collections__swiper-container swiper-container">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="collections__swiper-slide swiper-slide">
+              <div class="collections__swiper-slide">
+                <img
+                  src="img/plantation.jpg"
+                  alt="#"
+                  class="collections__img"
+                />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="collections__swiper-slide">
+                <img
+                  src="img/bottlesfirst.jpg"
+                  alt="#"
+                  class="collections__img"
+                />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="collections__swiper-slide">
+                <img
+                  src="img/bottlesSecond.jpg"
+                  alt="#"
+                  class="collections__img"
+                />
+              </div>
+            </div>
+          </div>
+          <!-- If we need pagination -->
+          <div class="collections__swiper-pagination swiper-pagination"></div>
+
+          <!-- If we need navigation buttons -->
+          <div class="collections__swiper-button-prev swiper-button-prev"></div>
+          <div class="collections__swiper-button-next swiper-button-next"></div>
+        </div>
       </div>
     </section>
     <section class="registration">
@@ -175,5 +219,8 @@
         </div>
       </div>
     </footer>
+    <!-- JS int -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="JS/main.js"></script>
   </body>
 </html>

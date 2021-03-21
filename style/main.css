@@ -1,10 +1,10 @@
-/* 
-  font-family: 'Montserrat', sans-serif;
-  font-family: 'Playfair Display', serif; 
-*/
 body {
   margin: 0;
   padding: 0;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 .container {
@@ -288,7 +288,6 @@ header {
 
 .collections__photo {
   display: grid;
-  grid-template-columns: 1fr 1fr;
   grid-row-gap: 30px;
   height: fit-content;
 }
@@ -300,6 +299,14 @@ header {
 .collections__photo img:nth-child(3) {
   justify-self: end;
 }
+/* collections swiper */
+
+.collections__swiper-container {
+  display: none;
+}
+
+/* collections swiper */
+
 /* collections */
 
 /************************************* registration  */
